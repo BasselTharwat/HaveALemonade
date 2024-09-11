@@ -135,7 +135,9 @@ fun ImageAndText(imageId: Int, textId: Int, modifier: Modifier = Modifier,
 }
 
 @Preview(showBackground = true,
-    uiMode = UI_MODE_NIGHT_YES
+    uiMode = UI_MODE_NIGHT_YES,
+    widthDp = 800,
+    heightDp = 1200
 )
 @Composable
 fun LemonadePreview() {
